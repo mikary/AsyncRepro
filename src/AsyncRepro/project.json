@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0-*",
+    "description": "",
+    "authors": [ "" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "Ix-Async": "1.2.3"
+    },
+
+    "commands": {
+        "AsyncRepro": "AsyncRepro"
+    },
+
+    "frameworks": {
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Data": "4.0.0.0",
+                "System.Transactions": "4.0.0.0"
+            }
+        },
+        "dnxcore50": {
+            "dependencies": {
+                "System.Console": "4.0.0-beta-22816",
+                "System.Data.SqlClient": "4.0.0-*",
+                "System.Collections": "4.0.10-beta-22816",
+                "System.Linq": "4.0.0-beta-22816",
+                "System.Threading": "4.0.10-beta-22816",
+                "Microsoft.CSharp": "4.0.0-beta-22816"
+            }
+        }
+    }
+}
